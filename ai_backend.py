@@ -30,7 +30,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="your api key")
 df = None
 model_pipeline = None
 audit_policies = None
